@@ -40,7 +40,7 @@
                 <DataTemplate>
                     <StackPanel Margin="0,15,0,15">
                         <Border BorderBrush="Black" BorderThickness="1">
-                            <StackPanel Orientation="Horizontal">
+                            <StackPanel Background="#CEFFF9" Orientation="Horizontal">
                                 <Image Source="{Binding image}" Width="300" Margin="20" Height="130"></Image>
 
                                 <StackPanel Margin="20">
@@ -58,7 +58,7 @@
                                     </StackPanel>
 
                                 </StackPanel>
-                                <TextBlock Text="{Binding Cost}" Margin="700,0,10,0" FontFamily="Gabriola" FontSize="42"></TextBlock>
+                                <TextBlock Text="{Binding Cost}" Foreground="#00CC76" Margin="700,0,10,0" FontFamily="Gabriola" FontSize="42"></TextBlock>
                             </StackPanel>
                         </Border>
                     </StackPanel>
